@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:background="#ff0000"
+    android:layout_height="300dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:visibility="gone"
+        android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:visibility="gone"
+        android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/bt3" android:visibility="gone"
+        android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/bt4" android:visibility="gone"
+        android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <Button
+        android:id="@+id/bt5"
+        android:visibility="gone"
+        android:text="这里头的内容自定义" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="false"/>
+
+
+</RelativeLayout>
